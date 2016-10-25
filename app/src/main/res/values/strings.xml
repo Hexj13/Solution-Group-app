@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SolutionGroup</string>
+    <string name="toolbar_text">Solution Group App</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbarDeleteTitle">Удаление</string>
+    <string name="newListDialogTitle">Название:</string>
+    <string name="newTimeDialogTitle">Напомнить через (мин):</string>
+    <string name="newListDialogSaveButton">создать</string>
+    <string name="newTimeDialogSaveButton">OK</string>
+    <string name="newListDialogCancelButton">отмена</string>
+</resources>

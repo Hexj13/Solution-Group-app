@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="282dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/newListDialogTitle"
+        android:textColor="@color/colorToolbarText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/noteCreationDialogNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorToolbarText"
+        android:focusableInTouchMode="true"
+        android:inputType="textPersonName"
+        android:lines="1"
+        android:maxLines="1"
+        android:minWidth="250dp" />
+
+    <!-- это для текста заметки сам потом его обработаешь и заберешь из него данные -->
+    <EditText
+        android:id="@+id/noteCreationDialogBodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorToolbarText"
+        android:focusableInTouchMode="true"
+        android:inputType="text"
+        android:lines="3"
+        android:maxLines="3"
+        android:minWidth="250dp" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/listCreationDialogCancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="125dp"
+            android:text="@string/newListDialogCancelButton" />
+
+        <Button
+            android:id="@+id/listCreationDialogSaveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="125dp"
+            android:text="@string/newListDialogSaveButton" />
+    </TableRow>
+</LinearLayout>

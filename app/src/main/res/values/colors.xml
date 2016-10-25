@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryAlpha">#643f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorMainListItemShadow">#212121</color>
+    <color name="colorMainListItemBackground">#b2bae2</color>
+    <color name="transparentRed">#d7f13838</color>
+    <color name="transparentRedAlpha">#a0f13838</color>
+    <color name="colorToolbarText">#cecece</color>
+    <color name="colorAccent">#563e53</color>
+</resources>

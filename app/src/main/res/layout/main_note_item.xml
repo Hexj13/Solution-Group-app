@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_note_item_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mainListItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/mainListItemDeletionForeground"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/main_note_item_deletion_foreground" />
+
+    <ImageView
+        android:id="@+id/mainListItemDeletionForegroundIcon"
+        app:srcCompat="@drawable/ic_delete_128dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
